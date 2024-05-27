@@ -1,81 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin: 10px;
+  padding: 10px;
 }
 
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: #f2f2f2;
-}
-
-header {
-  background-color: #0d364b;
-  color: #fff;
-  padding: 20px;
-}
-
-nav ul {
-  list-style: none;
-  text-align: right;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-#hero {
-  text-align: center;
-  padding: 100px;
-  background-color: #b8dcf0;
-}
-
-#hero h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #0d364b;
-  color: #fff;
-  text-decoration: none;
-  margin-top: 10px;
-}
-
-#features {
-  padding: 50px;
-  background-color: #fff;
-}
-
-#features h2 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.feature {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.feature i {
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #0d364b;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-footer p {
-  margin: 0;
+button {
+  font-size: 18px;
+  padding: 10px;
 }
